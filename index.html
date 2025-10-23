@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CROCHET SHOP</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="image/download.jpg" type="icon">
+</head>
+<body>
+
+<header> 
+    <a href="#" class="logo">
+        <img src="image/download.jpg" alt="Logo Icon" class="logo-icon">
+        KATHA' KURU
+    </a>
+
+    <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+    <nav class="navbar" id="navbar">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#productss">Product</a>
+        <a href="#review">Review</a>
+        <a href="#contact">Contact</a>
+
+        <a href="javascript:void(0)" class="cart-icon" id="cart-btn">
+            <i class="fas fa-shopping-cart"></i>
+            <span id="cart-count">0</span>
+        </a>
+        
+        <div class="cart-popup" id="cart-popup">
+            <ul id="cart-items"></ul>
+            <p id="empty-cart">Cart is empty</p>
+            <hr>
+            <p>Subtotal: ₱<span id="cart-subtotal">0.00</span></p>
+            <p>Total: ₱<span id="cart-total">0.00</span></p>
+            <p id="checkout-message" style="display:none; color:green; text-align:center; font-weight:bold; margin-top:10px;">
+                Thank you for checking out!
+            </p>
+            <button id="checkout-btn" class="btn">Check out</button>
+            
+        </div>
+    </nav>        
+</header>
+
+
+    <section class="#home" id="home">
+        <div class="content">
+            <br><br>
+            <h2>Naturally handmade</h2>
+            <p  style="text-align: left;" class="pop">Welcome to Katha't Kuro!💐<br>
+                   This is my little world of yarn,
+                    where crochet flowers and keychains bloom from randoms thoughts<br>
+                   late-night musings, and a whole lot of heart.<br>
+                   Each piece is made slow, with love and meaning- because art should always
+                   feel like home. 💗<br>
+                </p>
+            <a href="#productss" class="btn">Shop Now!</a>
+        </div>
+    </section>
+
+ <section class="#about" id="about">
+    <div class="about-heading">    
+        <h1 class="heading"> About <span>Us</span></h1> 
+    </div>
+    
+    <div class="row">
+        <div class="image-container">
+           <img src="image/elle.jpg" alt="photo">
+        </div>
+
+        <div class="content">
+            <h3> Why Choose Us?</h3>
+            <p style="text-align: left;" class="pop">Welcome to Katha't Kuro!💐<br>
+               This is my little world of yarn,
+                where crochet flowers and keychains bloom from randoms thoughts<br>
+               late-night musings, and a whole lot of heart.<br>
+               Each piece is made slow, with love and meaning- because art should always
+               feel like home. 💗<br>
+            </p>
+            <a href="#" class="btn">Learn more</a>
+        </div>
+    </div>
+</section>
+    <section class="icons-container">
+        <div class="icon">
+            <img src="image/icon-1.png" alt="">
+            <div class="info">
+                <h3>free delivery</h3>
+                <span>on all orders</span>
+            </div>
+        </div>
+
+        <div class="icon">
+            <img src="image/icon-2.png" alt="">
+            <div class="info">
+                <h3>10days return</h3>
+                <span>moneyback guarantee</span>
+            </div>
+        </div>
+
+        <div class="icon">
+            <img src="image/icon-3.png" alt="">
+            <div class="info">
+                <h3>offer and gifts</h3>
+                <span>on all orders</span>
+            </div>
+        </div>
+
+        <div class="icon">
+            <img src="image/icon-4.png" alt="">
+            <div class="info">
+                <h3>secure payments</h3>
+                <span>protected by gcash</span>
+            </div>
+        </div>
+    </section>
+<section class="#productss" id="productss">
+    <div>    
+        <h1 class="heading"> Latest <span>Products</span></h1> 
+    </div>
+
+<div class="products">
+    <div class="container">
+            <h1 class="lg-title">KATHA' KURU Crochet and Keychain Offer</h1>
+            <p class="text-light"  class="pop">brings you a charming collection of handcrafted crochet creations and stylish keychains. Each piece is made with love and attention to detail, blending creativity, quality, and unique design. Perfect for adding a personal touch to your keys, bags, or as a thoughtful gift for friends and loved ones, our products are designed to delight and inspire. Discover the beauty of handmade artistry with KATHA' KURU and make every day a little more special.</p>
+        </div>
+    
+
+    <div class="product-items">
+        <!-- start -->
+        <div class="product">
+            <div class="product-content">
+                <div class="products-img">
+                    <img src="image/rose.jpg" alt="product image">
+                </div>
+                <div class="product-btns">
+                    <button type="button" class="btn-cart">
+                        add to cart
+                        <span><i class="fas fa-plus"></i></span>
+                    </button>
+                    <button type="button" class="btn-buy">
+                        buy now
+                        <span><i class="fas fa-shopping-cart"></i></span>
+                    </button>
+                </div>
+            </div>
+
+            <div class="product-info">
+                <div class="product-info-top">
+                    <h2 class="sm-title">KeyChain Product</h2>
+                    <div class="rating">
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="far fa-star"></i></span>
+                    </div>
+                </div>
+                <a href="#" class="product-name">Rose Keychain</a>
+                <p class="product-price">₱ 100p>
+                <p class="product-price">₱ 75</p>
+            </div>
+            <div class="off-info">
+                <h2 class="sm-title">25% off</h2>
+            </div>
+        </div>
+        <!--end-->
+                <!-- start -->
+        <div class="product">
+            <div class="product-content">
+                <div class="products-img">
+                    <img src="image/octo.jpg" alt="product image">
+                </div>
+                <div class="product-btns">
+                    <button type="button" class="btn-cart">
+                        add to cart
+                        <span><i class="fas fa-plus"></i></span>
+                    </button>
+                    <button type="button" class="btn-buy">
+                        buy now
+                        <span><i class="fas fa-shopping-cart"></i></span>
+                    </button>
+                </div>
+            </div>
+
+            <div class="product-info">
+                <div class="product-info-top">
+                    <h2 class="sm-title">Crochet Product</h2>
+                    <div class="rating">
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="far fa-star"></i></span>
+                    </div>
+                </div>
+                <a href="#" class="product-name">Cute Octo</a>
+                <p class="product-price">₱ 100</p>
+                <p class="product-price">₱ 75</p>
+            </div>
+            <div class="off-info">
+                <h2 class="sm-title">25% off</h2>
+            </div>
+        </div>
+        <!--end-->
+                <!-- start -->
+        <div class="product">
+            <div class="product-content">
+                <div class="products-img">
+                    <img src="image/mushroom keychain.jpg" alt="product image">
+                </div>
+                <div class="product-btns">
+                    <button type="button" class="btn-cart">
+                        add to cart
+                        <span><i class="fas fa-plus"></i></span>
+                    </button>
+                    <button type="button" class="btn-buy">
+                        buy now
+                        <span><i class="fas fa-shopping-cart"></i></span>
+                    </button>
+                </div>
+            </div>
+
+            <div class="product-info">
+                <div class="product-info-top">
+                    <h2 class="sm-title">Keychain Product</h2>
+                    <div class="rating">
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="far fa-star"></i></span>
+                    </div>
+                </div>
+                <a href="#" class="product-name">Mushroom Keychain</a>
+                <p class="product-price">₱ 100</p>
+                <p class="product-price">₱ 75</p>
+            </div>
+            <div class="off-info">
+                <h2 class="sm-title">25% off</h2>
+            </div>
+        </div>
+        <!--end-->
+                <!-- start -->
+        <div class="product">
+            <div class="product-content">
+                <div class="products-img">
+                    <img src="image/cuteanimal.jpeg" alt="product image">
+                </div>
+                <div class="product-btns">
+                    <button type="button" class="btn-cart">
+                        add to cart
+                        <span><i class="fas fa-plus"></i></span>
+                    </button>
+                    <button type="button" class="btn-buy">
+                        buy now
+                        <span><i class="fas fa-shopping-cart"></i></span>
+                    </button>
+                </div>
+            </div>
+
+            <div class="product-info">
+                <div class="product-info-top">
+                    <h2 class="sm-title">Keychain Product</h2>
+                    <div class="rating">
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="far fa-star"></i></span>
+                    </div>
+                </div>
+                <a href="#" class="product-name">18 pcs animal keychain </a>
+                <p class="product-price">₱ 1000</p>
+                <p class="product-price">₱ 750</p>
+            </div>
+            <div class="off-info">
+                <h2 class="sm-title">25% off</h2>
+            </div>
+        </div>
+        <!--end-->
+                <!-- start -->
+        <div class="product">
+            <div class="product-content">
+                <div class="products-img">
+                    <img src="image/miffy keychain.jpg" alt="product image">
+                </div>
+                <div class="product-btns">
+                    <button type="button" class="btn-cart">
+                        add to cart
+                        <span><i class="fas fa-plus"></i></span>
+                    </button>
+                    <button type="button" class="btn-buy">
+                        buy now
+                        <span><i class="fas fa-shopping-cart"></i></span>
+                    </button>
+                </div>
+            </div>
+
+            <div class="product-info">
+                <div class="product-info-top">
+                    <h2 class="sm-title">keychain product</h2>
+                    <div class="rating">
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="far fa-star"></i></span>
+                    </div>
+                </div>
+                <a href="#" class="product-name">Miffy Keychain</a>
+                <p class="product-price">₱ 200</p>
+                <p class="product-price">₱ 150</p>
+            </div>
+            <div class="off-info">
+                <h2 class="sm-title">25% off</h2>
+            </div>
+        </div>
+        <!--end-->
+                <!-- start -->
+        <div class="product">
+            <div class="product-content">
+                <div class="products-img">
+                    <img src="image/flower-crochet.jpg" alt="product image">
+                </div>
+                <div class="product-btns">
+                    <button type="button" class="btn-cart">
+                        add to cart
+                        <span><i class="fas fa-plus"></i></span>
+                    </button>
+                    <button type="button" class="btn-buy">
+                        buy now
+                        <span><i class="fas fa-shopping-cart"></i></span>
+                    </button>
+                </div>
+            </div>
+
+            <div class="product-info">
+                <div class="product-info-top">
+                    <h2 class="sm-title">Crochet Product</h2>
+                    <div class="rating">
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="far fa-star"></i></span>
+                    </div>
+                </div>
+                <a href="#" class="product-name">flower Bouquet</a>
+                <p class="product-price">₱ 500</p>
+                <p class="product-price">₱ 475</p>
+            </div>
+            <div class="off-info">
+                <h2 class="sm-title">25% off</h2>
+            </div>
+        </div>
+        <!--end-->
+            <!-- start -->
+        <div class="product">
+            <div class="product-content">
+                <div class="products-img">
+                    <img src="image/earing-crochet.jpg" alt="product image">
+                </div>
+                <div class="product-btns">
+                    <button type="button" class="btn-cart">
+                        add to cart
+                        <span><i class="fas fa-plus"></i></span>
+                    </button>
+                    <button type="button" class="btn-buy">
+                        buy now
+                        <span><i class="fas fa-shopping-cart"></i></span>
+                    </button>
+                </div>
+            </div>
+
+            <div class="product-info">
+                <div class="product-info-top">
+                    <h2 class="sm-title">Earing Crochet product</h2>
+                    <div class="rating">
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="far fa-star"></i></span>
+                    </div>
+                </div>
+                <a href="#" class="product-name">Earing Crochet</a>
+                <p class="product-price">₱ 100</p>
+                <p class="product-price">₱ 75</p>
+            </div>
+            <div class="off-info">
+                <h2 class="sm-title">25% off</h2>
+            </div>
+        </div>
+        <!--end-->
+                        <!-- start -->
+        <div class="product">
+            <div class="product-content">
+                <div class="products-img">
+                    <img src="image/bee-keychain.jpg" alt="product image">
+                </div>
+                <div class="product-btns">
+                    <button type="button" class="btn-cart">
+                        add to cart
+                        <span><i class="fas fa-plus"></i></span>
+                    </button>
+                    <button type="button" class="btn-buy">
+                        buy now
+                        <span><i class="fas fa-shopping-cart"></i></span>
+                    </button>
+                </div>
+            </div>
+
+            <div class="product-info">
+                <div class="product-info-top">
+                    <h2 class="sm-title">Keychain product</h2>
+                    <div class="rating">
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="far fa-star"></i></span>
+                    </div>
+                </div>
+                <a href="#" class="product-name">Bee Keychain</a>
+                <p class="product-price">₱ 150</p>
+                <p class="product-price">₱ 125</p>
+            </div>
+            <div class="off-info">
+                <h2 class="sm-title">25% off</h2>
+            </div>
+        </div>
+        <!--end-->
+    </div>
+</div>
+
+<div class="product-collection">
+    <div class="container">
+        <div class="product-collection-wrapper">
+            <!--product col right-->
+            <div class="product-col-left flex">
+                <div class="product-col-content">
+                    <h2 class="sm-title1">Crochet</h2>
+                    <h2 class="md-title2">Crochet Collection</h2>
+                    <p class="text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum culpa 
+                        provident nisi iure expedita voluptas labore dignissimos quisquam iste cum tempora minima 
+                        laudantium laborum inventore, et repellat alias odio possimus!</p>
+                    <button type="button" class="btn-dark">Shop now</button>
+                </div>
+            </div>
+
+            <!--product col right-->
+            <div class="product-col-right">
+                <div class="product-col-r-top flex">
+                    <div class="product-col-content">
+                    <h2 class="sm-title1">Keychain</h2>
+                    <h2 class="md-title2">Keychain Collection</h2>
+                    <p class="text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum culpa 
+                        provident nisi iure expedita voluptas labore dignissimos quisquam iste cum tempora minima 
+                        laudantium laborum inventore, et repellat alias odio possimus!</p>                       
+                    <button type="button" class="btn-dark">Shop now</button>                       
+                    </div>
+                </div>
+
+                <div class="product-col-r-bottom">
+                    <!-- left -->
+                    <div class="flex">
+                    <div class="product-col-content">
+                        <h2 class="sm-title1">summer sale</h2>
+                        <h2 class="md-title2">extra 25% off</h2>
+                        <p class="text-light">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
+                        consequatur facilis eligendi quibusdam voluptatibus exercitationem autem
+                        voluptatum, beatae architecto odit, quisquam repellat. Deleniti,
+                        architecto ab.
+                        </p>
+                        <button type="button" class="btn-dark">Shop now</button>
+                    </div>
+                    </div>
+                    <!-- right -->
+                    <div class="flex">
+                    <div class="product-col-content">
+                        <h2 class="sm-title1">comming soon</h2>
+                        <h2 class="md-title2">more product soon</h2>
+                        <p class="text-light">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
+                        consequatur facilis eligendi quibusdam voluptatibus exercitationem autem
+                        voluptatum, beatae architecto odit, quisquam repellat. Deleniti,
+                        architecto ab.
+                        </p>
+                        <button type="button" class="btn-dark">Shop now</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+
+<section class="#review" id="review">
+    <div>
+        <h1 class="heading"> Customer's <span>Review</span></h1>
+    </div>  
+        <div class="box-container">
+            <div class="box">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores eaque consequatur minus. </p>
+                <div class="user">
+                    <img src="image/image1.png" alt="">
+                    <div class="user-info">
+                        <h3>kathleen disierto</h3>
+                        <span>happy customer</span>
+                    </div>
+                </div>
+            </div>
+
+        <div class="box-container">
+            <div class="box">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores eaque consequatur minus. </p>
+                <div class="user">
+                    <img src="image/image2.png" alt="">
+                    <div class="user-info">
+                        <h3>kathleen disierto</h3>
+                        <span>happy customer</span>
+                    </div>
+                </div>
+            </div>
+
+        <div class="box-container">
+            <div class="box">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores eaque consequatur minus.</p>
+                <div class="user">
+                    <img src="image/image3.png" alt="">
+                    <div class="user-info">
+                        <h3>kathleen disierto</h3>
+                        <span>happy customer</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box-container">
+            <div class="box">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores eaque consequatur minus.</p>
+                <div class="user">
+                    <img src="image/image3.png" alt="">
+                    <div class="user-info">
+                        <h3>kathleen disierto</h3>
+                        <span>happy customer</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>
+<section class="#contact" id="contact">
+    <div>
+        <h1 class="heading"> Contact <span>Us</span></h1>
+    </div>  
+
+        <div class="contact-container">
+  <div class="contact-wrapper">
+    
+    <div class="contact-form">
+      <h2>Get In Touch</h2>
+      <p class="subtitle">We'd love to hear from you. Send us a message and we'll respond as soon as possible.</p>
+
+      <form id="contactForm">
+        <div class="form-group">
+          <label for="name">Full Name</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+
+        <div class="form-group">
+            <label for="subject">Subject</label>
+                <select id="subject" name="subject" required>
+                    <option value="">--Please Select--</option>
+                    <option value="custom-made">Custom Made</option>
+                    <option value="buy">Buy</option>
+                    <option value="inquiry">Inquiry</option>
+                    <option value="feedback">Feedback</option>
+             </select>
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" required></textarea>
+        </div>
+
+    <button type="submit" class="submit-btn">Send Message</button>
+    <span id="thankMessage" style="display:none; margin-left:10px; color:green; font-weight:500;">
+    Thank you for messaging!
+    </span>
+      </form>
+    </div>
+
+    <div class="contact-image"></div>
+  </div>
+</div>
+</section>
+
+<div class="contact-header">
+    <center><h2 class="contact-sub-heading">Other <span>Contact</span></h2></center>
+</div>
+<section class="contact-features-section">
+    <a href="https://web.facebook.com/dheniellegomez" target="_blank" style="text-decoration: none; color: inherit; flex: 1 1 200px; margin: 10px;">
+        <div class="feature-box">
+            <div class="icon-circle-wrapper">
+                <i class="fab fa-facebook-f feature-icon"></i>
+            </div>
+            <div class="feature-content">
+                <h3 class="feature-title">facebook</h3>
+                <p class="feature-text">KATHA' KURU</p>
+            </div>
+        </div>
+    </a>
+    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=kurokathat@gmail.com" target="_blank" style="text-decoration: none; color: inherit; flex: 1 1 200px; margin: 10px;">
+        <div class="feature-box">
+            <div class="icon-circle-wrapper">
+                <i class="far fa-envelope feature-icon"></i>
+            </div>
+            <div class="feature-content">
+                <h3 class="feature-title">email</h3>
+                <p class="feature-text">send us a message</p>
+            </div>
+        </div>
+    </a>
+
+    <a href="https://www.instagram.com/strawbebii.ig?igsh=ZGI4djc1NGx6YXpz" target="_blank" style="text-decoration: none; color: inherit; flex: 1 1 200px; margin: 10px;">
+        <div class="feature-box">
+            <div class="icon-circle-wrapper">
+                <i class="fab fa-instagram feature-icon"></i>
+            </div>
+            <div class="feature-content">
+                <h3 class="feature-title">instagram</h3>
+                <p class="feature-text">follow and DM us</p>
+            </div>
+        </div>
+    </a>
+</section>
+
+  <footer>
+    © 2025 Katha'Kuru. All rights reserved.
+  </footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
